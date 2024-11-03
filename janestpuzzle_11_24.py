@@ -52,7 +52,7 @@ def distfinder()-> int: #generates points r and b and returns 1 if there exists 
             return 1
         else:
             return 0
-    if side=="bot":
+    elif side=="bot":
         rmindist=r[1]
         borth=max(b[0],ran-b[0])
         bmaxdist=math.sqrt(((b[1]*b[1])+(borth*borth)))
